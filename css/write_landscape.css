@@ -1,0 +1,20 @@
+body{
+		background-image: url(../images/write_img.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		color:#331a00;
+}
+#writespace{
+		background-color:transparent;
+		size:auto;
+		width:80%;	
+		margin:none;
+		resize: none;
+		outline: none;	
+}
+#writespace:focus{
+
+}
+#writeform{
+		margin: 2% auto 0 auto;
+}

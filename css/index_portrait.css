@@ -1,0 +1,57 @@
+body{
+		background-image: url(../images/portrait.jpg);
+		background-repeat: no-repeat;
+		/*height:auto;*/
+		background-size: cover;
+		/*background-position: center auto;*/
+		color:#331a00;
+	}
+	#entrydiv{
+		width:60%;
+		margin:10% auto 0 auto;
+		/*transform: rotate(-3deg);*/
+	}
+	#shtoken{
+		visibility:hidden;
+	}
+	#fname, #lname, #pfname, #plname, #shtoken{
+		background-color:transparent;
+		border-style: hidden;
+		border-bottom: 1px solid  #331a00;
+	}
+	#access_type{
+		background-color:transparent;
+		border-color:#331a00;
+	}
+	#writeButton{
+		background-color:transparent;
+		border-color:#331a00;
+	}
+	#introdiv{
+		width:60%;
+		position:fixed;
+		/*margin:10% auto 0 auto;*/
+		top:10%;
+		right:20%;
+		background-color: rgba(0, 0, 0, 0.7);
+		border: 5px double rgb(14,7,3);
+		border-radius: 10px;
+		font-size: 130%;
+		font-style: italic;
+		color: rgb(255, 253, 208);
+		z-index: 50;
+		display: none;
+	}
+	#closebu{
+		background-color: transparent;
+		border: 1px solid #331a00;
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		color: rgb(255, 253, 208);
+	}
+	#hiddendiv{
+		left:0px;
+		bottom:0px;
+		position:absolute;
+	}
