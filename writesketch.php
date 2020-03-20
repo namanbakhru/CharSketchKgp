@@ -29,7 +29,7 @@
 </head>
 <body>
 	<form id="writeform" method="post">
-	<input type="text" name="sketchtitle" placeholder="Sketch Title(Optional)" id="skchtitle">
+	<input type="text" name="sketchtitle" placeholder="Sketch Title (Optional)" id="skchtitle">
 	<pre><textarea id="writespace" name="writeskch" placeholder="Write your sketch here. Remember to save your sketches periodically in case of lengthy sketches" required><?php echo($_SESSION["writeskch"]); ?></textarea></pre></br>
 	<button id="savebu" formaction="writesketch.php">Save</button>  <button id="submitbu" formaction="viewsketch.php">Submit</button>
 	</form>

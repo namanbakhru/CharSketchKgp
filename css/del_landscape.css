@@ -1,0 +1,16 @@
+body{
+	background-image: url(../images/delsketch.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color:#BF4040;
+}
+#returnbu{
+	position:fixed;
+	width:15%;
+	top:45%;
+	left:63%;
+	border-color:#BF4040;
+}
+#returnbu2{
+	display:none;
+}

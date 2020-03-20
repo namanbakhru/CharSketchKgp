@@ -3,6 +3,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		color:#331a00;
+		font-size:250%;
 	}
 	#entrydiv{
 		width:60%;
@@ -16,6 +17,7 @@
 		background-color:transparent;
 		border-style: hidden;
 		border-bottom: 1px solid  #331a00;
+		outline: none;
 	}
 	#access_type{
 		background-color:transparent;
@@ -29,22 +31,32 @@
 		width:60%;
 		position:fixed;
 		/*margin:10% auto 0 auto;*/
-		top:10%;
+		top:15%;
 		right:20%;
 		background-color: rgba(0, 0, 0, 0.7);
 		border: 5px double rgb(14,7,3);
 		border-radius: 10px;
-		font-size: 130%;
+		font-size: 50%;
 		font-style: italic;
 		color: rgb(255, 253, 208);
 		z-index: 50;
 		display: none;
+		padding-left:5px;
 	}
-	#closebu{
+	#introbu, #redirectbu{
+	}
+	#introbu{
+		margin-right:4px;
+	}
+	#redirect-bu{
+		margin-left:4px;
+	}
+	#closebu, #introbu, #redirectbu{
 		background-color: transparent;
 		border: 1px solid #331a00;
-		position:relative;
-		margin-left:auto;
-		margin-right:auto;
+		right:45%;
+		/*margin-left:auto;
+		margin-right:auto;*/
 		color: rgb(255, 253, 208);
+		border-radius:4px;
 	}

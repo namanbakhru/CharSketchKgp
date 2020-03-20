@@ -1,0 +1,60 @@
+body{
+	background-color: darkslategrey;
+	background-image: linear-gradient(45deg, rgb(50, 50, 50), rgb(100, 100, 100));
+	color:blanchedalmond;
+	min-height:100vh;
+	margin:0px 5vw 0px 5vw;
+}
+#writespace{
+	background-color: transparent;
+	width:90%;
+	resize: none;
+	outline: none;
+	min-height: 60vh;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid blanchedalmond;
+	color:blanchedalmond;
+	font-size:130%;
+}
+#skchtitle{
+	border-bottom: 1px solid blanchedalmond;
+	width:90%;
+	margin-left:0px;
+	margin-right:0px;
+	padding-left:0px;
+	padding-right:0px;
+}
+#skchlink{
+	font-size:80%;
+	font-style: italic;
+}
+#skchlink2{
+	color:blanchedalmond;
+	background-color: rgba(0, 0, 0, 0.2);
+	border:1px solid blanchedalmond;
+	outline:none;
+	width:25%;
+	padding-left: 3px;
+	font-size:115%;
+}
+#copybu, #printbu{
+	background-color: rgba(0, 0, 0, 0.4);
+	border:1px solid blanchedalmond;
+	outline: none;
+	color: blanchedalmond;
+	font-size:115%;
+}
+#printbu{
+	border-radius:2px;
+}
+#copybu:hover, #printbu:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+	color:cornsilk;
+	border-color:cornsilk;
+}
+#shareinfo{
+	width:96vh;
+	margin-left:auto;
+	margin-right:auto;
+}

@@ -1,0 +1,22 @@
+body{
+	background-image: url(../images/delnote.jpg);
+	background-size:cover;
+	background-repeat:repeat-y;
+	background-color:#BF4040;
+}
+#returnbu{
+	display:none;
+}
+#returnbu2{
+	outline: none;
+	border-color:blanchedalmond;
+	color:blanchedalmond;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 1px solid blanchedalmond;
+	font-size: 150%;
+	width:30%;
+	border-radius: 3px;
+}
+a{
+	color: blanchedalmond;
+}

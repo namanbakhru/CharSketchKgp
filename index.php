@@ -13,7 +13,7 @@
 <link rel="stylesheet" type="text/css" media="screen and (orientation:landscape)" href="css/index_landscape.css">
 </head>
 <body>
-	<div><button onclick="viewintro();">What's this</button><button>Find a Sketch</button></div>
+	<div><button onclick="viewintro();" id="introbu">What's this</button><button onclick="redirectfn();" id="redirectbu">Find a Sketch</button></div>
 	<div id="entrydiv">
 		Let's begin writing a sketch
 		<form action="writesketch.php" method="post">
@@ -37,8 +37,10 @@
 <script type="text/javascript">
 	function changevis(){
 		var acc = document.getElementById("access_type").value;
-		if(acc=='private')
+		if(acc=='private'){
 			document.getElementById("shtoken").style.visibility = 'visible';
+			alert("You cannot share private sketches now. This is yet to be implemented for security and convinience. Don't worry, get ready with your sketches as this service would be ready within a week. For now, you may write public sketches.")
+		}
 		else
 			document.getElementById("shtoken").style.visibility = 'hidden';
 	}
@@ -47,6 +49,10 @@
 	}
 	function hideintro(){
 		document.getElementById("introdiv").style.display = 'none';
+	}
+	function redirectfn(){
+		alert("This functionality is yet to be implemented. For now you will be directed to the directory of public sketches");
+		window.location.href = "sketch_pages/";
 	}
 </script>
 </body>

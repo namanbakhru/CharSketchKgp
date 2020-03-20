@@ -1,0 +1,41 @@
+body{
+		background-image: url(../images/write_img.jpg);
+		background-repeat: repeat-y;
+		background-size: cover;
+		color:#331a00;
+}
+#writespace{
+		background-color:transparent;
+		size:auto;
+		width:90%;	
+		margin:none;
+		resize: none;
+		outline: none;
+		min-height:300px;
+		border: 1px solid  #331a00;
+		font-size:130%;
+}
+#skchtitle{
+	background-color:transparent;
+	font-size:150%;
+	outline:none;
+	border-style:hidden;
+	border-bottom: 1px solid  #331a00;
+	width:90%;
+}
+#writespace:focus{
+
+}
+#writeform{
+	margin: 2% auto 0 auto;
+}
+#savebu, #submitbu{
+	border-radius: 4px;
+	background-color: transparent;
+	border: 1px solid  #331a00;
+	min-height:3%;
+}
+button:hover{
+	color: rgb(255, 253, 208);
+	border-color: 1px solid rgb(255, 253, 208);
+}

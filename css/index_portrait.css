@@ -7,8 +7,9 @@ body{
 		color:#331a00;
 	}
 	#entrydiv{
-		width:60%;
+		width:75%;
 		margin:10% auto 0 auto;
+		font-size:150%;
 		/*transform: rotate(-3deg);*/
 	}
 	#shtoken{
@@ -23,20 +24,34 @@ body{
 		background-color:transparent;
 		border-color:#331a00;
 	}
-	#writeButton{
+	#writeButton, #introbu, #redirectbu{
 		background-color:transparent;
 		border-color:#331a00;
+		/*color: rgb(255, 253, 208);;*/
+	}
+	#introbu, #redirectbu{
+		margin-top:15%;
+	}
+	#introbu{
+		margin-left:15%;
+		width:30%;
+		margin-right:4%;
+	}
+	#redirectbu{
+		margin-right:15%;
+		width:30%;
+		margin-left:4%;
 	}
 	#introdiv{
-		width:60%;
+		width:90%;
 		position:fixed;
 		/*margin:10% auto 0 auto;*/
 		top:10%;
-		right:20%;
+		right:5%;
 		background-color: rgba(0, 0, 0, 0.7);
 		border: 5px double rgb(14,7,3);
 		border-radius: 10px;
-		font-size: 130%;
+		font-size: 100%;
 		font-style: italic;
 		color: rgb(255, 253, 208);
 		z-index: 50;

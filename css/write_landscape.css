@@ -10,11 +10,30 @@ body{
 		width:80%;	
 		margin:none;
 		resize: none;
-		outline: none;	
+		outline: none;
+		min-height:300px;
+		border: 1px solid  #331a00;
+}
+#skchtitle{
+	background-color:transparent;
+	font-size:250%;
+	outline:none;
+	border-style:hidden;
+	border-bottom: 1px solid  #331a00;
 }
 #writespace:focus{
 
 }
 #writeform{
-		margin: 2% auto 0 auto;
+	margin: 2% auto 0 auto;
+}
+#savebu, #submitbu{
+	border-radius: 4px;
+	background-color: transparent;
+	border: 1px solid  #331a00;
+	min-height:3%;
+}
+button:hover{
+	color: rgb(255, 253, 208);
+	border-color: 1px solid rgb(255, 253, 208);
 }

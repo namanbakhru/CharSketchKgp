@@ -8,7 +8,6 @@
 <link rel="stylesheet" type="text/css" media="screen and (orientation:landscape)" href="../css/common_skch_landscape.css">
 </head>
 <body>
-<div id="navdiv"><button id="writebu">Write a sketch</button><button id="printbu">Print/Save</button><button id="writebu">Delete this sketch</button></div> 
 <div id="skchdiv"><h2 id="skchtitle">Mr. Perfectionist</h2>
 <div id="skch"><pre>An Amazing actor.
 
