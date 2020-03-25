@@ -7,86 +7,12 @@
 <link rel="stylesheet" type="text/css" media="screen and (orientation:portrait)" href="../css/common_skch_portrait.css">
 <link rel="stylesheet" type="text/css" media="screen and (orientation:landscape)" href="../css/common_skch_landscape.css">
 <link rel="stylesheet" type="text/css" media="print" href="../css/common_skch_landscape.css">
-<link href="https://fonts.googleapis.com/css?family=Delius&display=swap" rel="stylesheet">
-</head>
+<link rel="stylesheet" type="text/css" href="../css/roadsidetrees.css">
+<link href="https://fonts.googleapis.com/css?family=Delius&display=swap" rel="stylesheet"></head>
 <body>
 <div id="navdiv"><button id="writebu" onclick="redirectmain();">Write a sketch</button><button id="printbu" onclick="printfn();">Print/Save</button><button id="deletebu" onclick="deletefn();">Delete this sketch</button></div>
-<div id="skchdiv"><b>I Hope</b><h2 id="skchstitle"></h2>
-<div id="skch">That this makes an amazing project and works well
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-On Most Systems</div></div>
+<div id="skchdiv"><h2 id="skchstitle"><b></b></h2>
+<div id="skch"></div></div>
 <script type="text/javascript">
 var flag ="";
 var filename ="";

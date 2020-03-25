@@ -32,22 +32,95 @@ body{
 	padding-left: 3px;
 	font-size:115%;	
 }
-#copybu, #printbu{
+#copybu, #printbu, #chgview, #cancelbu, #savebu{
 	background-color: rgba(0, 0, 0, 0.4);
 	border:1px solid blanchedalmond;
 	outline: none;
 	color: blanchedalmond;
 	font-size:115%;
 }
-#printbu{
+#printbu, #chgview{
 	border-radius:2px;
 	padding-left:15px;
 	padding-right:15px;
 }
-#copybu:hover, #printbu:hover{
+#cancelbu, #savebu{
+	position: fixed;
+	border-radius: 2px;
+	top: 75vh;
+	/*display:inherit;*/
+}
+#cancelbu{
+	width:8vw;
+	left:30vw;
+}
+#savebu{
+	width:8vw;
+	left:40vw;
+}
+#fontname, #themename{
+	position: fixed;
+	background-color:transparent;
+	border-color:blanchedalmond;
+	border-radius:2px;
+	color:blanchedalmond;
+	left:30vw;
+	outline:none;
+	/*display:inherit;*/
+}
+#fontname{
+	top:50vh;
+}
+#themename{
+	top:25vh;
+}
+option{
+	background-color:rgb(50, 50, 50);
+}
+#fontimg, #themeimg{
+	position: fixed;
+	width: 20vw;
+	height: 20vh;
+	border:1px solid blanchedalmond;
+	box-sizing: border-box;
+	border-radius: 2px;
+	right:30vw;
+	border-color:blanchedalmond;
+	/*display: inherit;*/
+}
+#themeimg{
+	top:20vh;
+}
+#fontimg{
+	top:45vh;
+}
+#copybu:hover, #printbu:hover, #chgview:hover, #cancelbu:hover, #savebu:hover{
 	background-color: rgba(0, 0, 0, 0.1);
 	color:cornsilk;
 	border-color:cornsilk;
 }
 #shareinfo{
+}
+#fontspan, #themespan{
+	position: fixed;
+	left:30vw;
+	/*display:inherit;*/
+}
+#fontspan{
+	top:45vh;
+}
+#themespan{
+	top:20vh;
+}
+#advancedSet{
+	width: 50vw;
+	height: 70vh;
+	position: fixed;
+	top: 15vh;
+	left: 25vw;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.6);
+	/*display:none;*/
+	border-radius: 3px;
+	margin-left: 2vw;
 }

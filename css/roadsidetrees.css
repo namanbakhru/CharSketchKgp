@@ -1,0 +1,14 @@
+@media screen and (orientation:landscape) {
+body{
+	background-image:url(../images/avenue-3464777_1280.jpg);
+	min-height:100vh;
+}
+#skchdiv{
+	background-image:none;
+	background-color: rgba(0, 0, 0, 0.6);
+	color:blanchedalmond;
+}
+#navdiv{
+	background-color:rgb(0, 0, 0, 0.6);
+}
+}

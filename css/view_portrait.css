@@ -38,17 +38,17 @@ body{
 	padding-left: 3px;
 	font-size:115%;
 }
-#copybu, #printbu{
+#copybu, #printbu, #chgview{
 	background-color: rgba(0, 0, 0, 0.4);
 	border:1px solid blanchedalmond;
 	outline: none;
 	color: blanchedalmond;
 	font-size:115%;
 }
-#printbu{
+#printbu,#chgview{
 	border-radius:2px;
 }
-#copybu:hover, #printbu:hover{
+#copybu:hover, #printbu:hover, #chgview:hover{
 	background-color: rgba(0, 0, 0, 0.1);
 	color:cornsilk;
 	border-color:cornsilk;

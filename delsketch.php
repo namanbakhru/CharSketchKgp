@@ -2,7 +2,7 @@
 	if(isset($_POST["filename"]))
 		$filename = $_POST["filename"];
 	$myFile = "sketch_pages/".$filename;
-	//unlink($myFile) or die("Couldn't delete file")
+	unlink($myFile) or die("Couldn't delete file")
 ?>
 <!DOCTYPE html>
 <html>
