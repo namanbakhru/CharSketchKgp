@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!--<link rel="shortcut icon" type="image/x-icon" href="">-->
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Char Sketch</title>
 <link rel="stylesheet" type="text/css" media="screen and (orientation:portrait)" href="../css/common_skch_portrait.css">
 <link rel="stylesheet" type="text/css" media="screen and (orientation:landscape)" href="../css/common_skch_landscape.css">
 <link rel="stylesheet" type="text/css" media="print" href="../css/common_skch_landscape.css">
-<link rel="stylesheet" type="text/css" href="../css/roadsidetrees.css">
 <link href="https://fonts.googleapis.com/css?family=Delius&display=swap" rel="stylesheet"></head>
 <body>
 <div id="navdiv"><button id="writebu" onclick="redirectmain();">Write a sketch</button><button id="printbu" onclick="printfn();">Print/Save</button><button id="deletebu" onclick="deletefn();">Delete this sketch</button></div>

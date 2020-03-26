@@ -1,0 +1,17 @@
+#skchdiv{
+	background-image:none;
+	background-color: rgba(0, 0, 0, 0.6);
+	color:blanchedalmond;
+}
+@media print, screen and (orientation:landscape) {
+	body{
+		background-image:url(../images/desert-2774945_1280.jpg);
+		min-height:100vh;
+	}
+}
+@media screen and (orientation:portrait){
+	body{
+		background-image:url(../images/sunsetdesertportrait.jpeg);
+		min-height:100vh;
+	}
+}

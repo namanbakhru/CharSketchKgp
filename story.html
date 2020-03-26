@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Char Sketch</title>
+<link href="https://fonts.googleapis.com/css?family=Sofia&display=swap" rel="stylesheet">
+<style type="text/css">
+	body{
+		margin:0px 0px 0px 0px;
+	}
+	#story2div{
+		min-width:2825px;
+		min-height:1366px;
+		background-image: url(images/storyimg/theater.jpg);
+	}
+	#mother{
+		position:absolute;
+		left:1260px;
+		top:20px;
+	}
+	#motherimg{
+		border-radius:70px;
+		margin:0px 0px 0px 0px;
+		/**border:10px inset rgba(255, 255, 255, 0.7);**/
+		/**box-shadow:inset 0px 0px 10px 5px rgba(0,0,0, 0.8);**/
+		background-image:url(images/storyimg/mother.jpeg);
+		height:361px;
+		width:361px;
+	}
+	#father{
+		position:absolute;
+		left: 915px;
+		top: 40px;
+	}
+	#fatherimg{
+		border-radius:60px;
+		background-image:url(images/storyimg/father.jpeg);
+		height: 315px;
+		width: 315px;
+	}
+	#brother{
+		position:absolute;
+		left: 1650px;
+		top: 40px;
+	}
+	#brotherimg{
+		border-radius:60px;
+		background-image:url(images/storyimg/brother.jpg);
+		height: 315px;
+		width: 315px;
+	}
+	#teacher{
+		position:absolute;
+		left: 850px;
+		top: 480px;
+	}
+	#teacherimg{
+		border-radius:50px;
+		background-image:url(images/storyimg/teacher.jpeg);
+		height: 280px;
+		width: 280px;
+	}
+	#bigbhuvi{
+		position:absolute;
+		left: 1155px;
+		top: 480px;
+	}
+	#bigbhuviimg{
+		border-radius:50px;
+		background-image:url(images/storyimg/bigbhuvi.jpeg);
+		height: 280px;
+		width: 280px;
+	}
+	#aditi{
+		position:absolute;
+		left: 1455px;
+		top: 480px;
+	}
+	#aditiimg{
+		border-radius:50px;
+		background-image:url(images/storyimg/aditigarg.jpeg);
+		height: 280px;
+		width: 280px;
+	}
+	#rahul{
+		position:absolute;
+		left: 1760px;
+		top: 480px;
+	}
+	#rahulimg{
+		border-radius:50px;
+		background-image:url(images/storyimg/rahulraj.jpeg);
+		height: 280px;
+		width: 280px;
+	}
+	#atif{
+		position:absolute;
+		top:890px;
+		left:755px;
+	}
+	#atifimg{
+		border-radius:40px;
+		background-image:url(images/storyimg/atif.jpeg);
+		height: 250px;
+		width: 250px;
+	}
+	#bhuvnesh{
+		position:absolute;
+		top:890px;
+		left:1025px;
+	}
+	#bhuvneshimg{
+		border-radius:40px;
+		background-image:url(images/storyimg/bhuvnesh.jpeg);
+		height: 250px;
+		width: 250px;
+	}
+	#anubhav{
+		position:absolute;
+		top:890px;
+		left:1295px;
+	}
+	#anubhavimg{
+		border-radius:40px;
+		background-image:url(images/storyimg/anubhav.jpeg);
+		height: 250px;
+		width: 250px;
+	}
+	#dakare{
+		position:absolute;
+		top:890px;
+		left:1565px;
+	}
+	#dakareimg{
+		border-radius:40px;
+		background-image:url(images/storyimg/dakare.jpeg);
+		height: 250px;
+		width: 250px;
+	}
+	#aniruddha{
+		position:absolute;
+		top:890px;
+		left:1845px;
+	}
+	#aniruddhaimg{
+		border-radius:40px;
+		background-image:url(images/storyimg/aniruddha.jpeg);
+		height: 250px;
+		width: 250px;
+	}
+	#nupur{
+		position:absolute;
+		top:1190px;
+		left:900px;
+	}
+	#nupurimg{
+		border-radius:75px;
+		background-image:url(images/storyimg/nupur.jpeg);
+		height: 150px;
+		width: 150px;
+	}
+	#kv{
+		position:absolute;
+		top:1190px;
+		left:1200px;
+	}
+	#kvimg{
+		border-radius:75px;
+		background-image:url(images/storyimg/kv.jpeg);
+		height: 150px;
+		width: 150px;
+	}
+	#raja{
+		position:absolute;
+		top:1190px;
+		left:1500px;
+	}
+	#rajaimg{
+		border-radius:75px;
+		background-image:url(images/storyimg/raja.jpeg);
+		height: 150px;
+		width: 150px;
+	}
+	#zaman{
+		position:absolute;
+		top:1190px;
+		left:1800px;
+	}
+	#zamanimg{
+		border-radius:75px;
+		background-image:url(images/storyimg/zaman.jpg);
+		height: 150px;
+		width: 150px;
+	}
+	.imgdiv{
+		box-shadow:inset 0px 0px 15px 6px #3C69E7;
+	}
+	figure{
+		margin:0px 0px 0px 0px;
+		width:min-content;
+	}
+	figcaption{
+		position: relative;
+		color:white;
+		text-align:center;
+		font-family: 'Sofia', cursive;
+	}
+	figcaption.level1{
+		font-size: 50px;
+	}
+	figcaption.level2{
+		font-size: 25px;
+	}
+	figcaption.level3{
+		font-size: 42px;
+	}
+	figcaption.level4{
+		font-size: 20px;
+	}
+</style>
+</head>
+<body>
+<div id="story2div">
+	<figure id="mother">
+  		<div class="imgdiv" id="motherimg"></div>
+  		<figcaption class="level1"><b>Mother</b></figcaption>
+	</figure>
+	<figure id="father">
+  		<div class="imgdiv" id="fatherimg"></div>
+  		<figcaption class="level1"><b>Father</b></figcaption>
+	</figure>
+	<figure id="brother">
+  		<div class="imgdiv" id="brotherimg"></div>
+  		<figcaption class="level1"><b>Brother</b></figcaption>
+	</figure>
+	<figure id="teacher">
+  		<div class="imgdiv imgdiv2" id="teacherimg"></div>
+  		<figcaption class="level2"><b>Art of Living<br/>Teacher</b></figcaption>
+	</figure>
+	<figure id="bigbhuvi">
+  		<div class="imgdiv imgdiv2" id="bigbhuviimg"></div>
+  		<figcaption class="level2"><b>Bhuvnesh's<br/>Elder Brother</b></figcaption>
+	</figure>
+	<figure id="aditi">
+  		<div class="imgdiv imgdiv2" id="aditiimg"></div>
+  		<figcaption class="level3"><b>Aditi Garg</b></figcaption>
+	</figure>
+	<figure id="rahul">
+  		<div class="imgdiv imgdiv2" id="rahulimg"></div>
+  		<figcaption class="level3"><b>Rahul Raj</b></figcaption>
+	</figure>
+	<figure id="atif">
+  		<div class="imgdiv imgdiv2" id="atifimg"></div>
+  		<figcaption class="level2"><b>Atif Hussain</b></figcaption>
+	</figure>
+	<figure id="bhuvnesh">
+  		<div class="imgdiv imgdiv2" id="bhuvneshimg"></div>
+  		<figcaption class="level2"><b>Bhuvnesh Bhuwan</b></figcaption>
+	</figure>
+		<figure id="anubhav">
+  		<div class="imgdiv imgdiv2" id="anubhavimg"></div>
+  		<figcaption class="level2"><b>Anubhav Pratik</b></figcaption>
+	</figure>
+	<figure id="dakare">
+  		<div class="imgdiv imgdiv2" id="dakareimg"></div>
+  		<figcaption class="level2"><b>Shrinath Dakare</b></figcaption>
+	</figure>
+		<figure id="aniruddha">
+  		<div class="imgdiv imgdiv2" id="aniruddhaimg"></div>
+  		<figcaption class="level2"><b>Aniruddha Chavan</b></figcaption>
+	</figure>
+	<figure id="nupur">
+  		<div class="imgdiv imgdiv2" id="nupurimg"></div>
+  		<figcaption class="level4"><b>Nupur Bhaisare</b></figcaption>
+	</figure>
+	<figure id="kv">
+  		<div class="imgdiv imgdiv2" id="kvimg"></div>
+  		<figcaption class="level4"><b>Kv Manohar</b></figcaption>
+	</figure>
+	<figure id="raja">
+  		<div class="imgdiv imgdiv2" id="rajaimg"></div>
+  		<figcaption class="level4"><b>Raja Dubey</b></figcaption>
+	</figure>
+	<figure id="zaman">
+  		<div class="imgdiv imgdiv2" id="zamanimg"></div>
+  		<figcaption class="level4"><b>Zaman Khan</b></figcaption>
+	</figure>
+</div>
+</body>
+</html>

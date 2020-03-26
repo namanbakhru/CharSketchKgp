@@ -1,13 +1,18 @@
 	body{
 		background-image: url(../images/smallest.jpg);
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 100vw auto;
 		color:#331a00;
 		font-size:250%;
 	}
 	#entrydiv{
-		width:60%;
-		margin:10% auto 0 auto;
+		width:60vw;
+		margin:10% 18vw 0 22vw;
+		transform: rotate(-3deg);
+		font-family: 'Courgette', cursive;
+	}
+	option{
+		background-color:transparent;
 		transform: rotate(-3deg);
 	}
 	#shtoken{
@@ -18,14 +23,26 @@
 		border-style: hidden;
 		border-bottom: 1px solid  #331a00;
 		outline: none;
+		font-family: 'Courgette', cursive;
+		font-size: 28px;
 	}
 	#access_type{
 		background-color:transparent;
 		border-color:#331a00;
+		font-family: 'Courgette', cursive;
 	}
 	#writeButton{
 		background-color:transparent;
 		border-color:#331a00;
+		font-family: 'Courgette', cursive;
+		font-size:25px;
+		border-radius: 4px;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	#writeButton:hover{
+		border-color:#251700;
+		color:#251700;
 	}
 	#introdiv{
 		width:60%;
@@ -59,4 +76,15 @@
 		margin-right:auto;*/
 		color: rgb(255, 253, 208);
 		border-radius:4px;
+	}
+	#closebu{
+		position:relative;
+		left: 25vw;
+		font-size: 24px;
+		margin-bottom: 4px;
+		border-color: rgb(255, 253, 208);
+	}
+	#closebu:hover{
+		color: #331a00;
+		border-color: #331a00;
 	}
