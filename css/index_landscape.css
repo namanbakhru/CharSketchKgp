@@ -24,7 +24,7 @@
 		border-bottom: 1px solid  #331a00;
 		outline: none;
 		font-family: 'Courgette', cursive;
-		font-size: 28px;
+		font-size: 18px;
 	}
 	#access_type{
 		background-color:transparent;
@@ -44,13 +44,13 @@
 		border-color:#251700;
 		color:#251700;
 	}
-	#introdiv{
+	#introdiv, #charitydiv{
 		width:60%;
 		position:fixed;
 		/*margin:10% auto 0 auto;*/
 		top:15%;
 		right:20%;
-		background-color: rgba(0, 0, 0, 0.7);
+		background-color: rgba(0, 0, 0, 0.9);
 		border: 5px double rgb(14,7,3);
 		border-radius: 10px;
 		font-size: 50%;
@@ -63,12 +63,17 @@
 	#introbu, #redirectbu{
 	}
 	#introbu{
-		margin-right:4px;
 	}
 	#redirect-bu{
-		margin-left:4px;
 	}
-	#closebu, #introbu, #redirectbu{
+	#navdiv{
+		position:fixed;
+		top:0px;
+		width:50vw;
+		margin: none;
+		left:0px;
+	}
+	.closebu{
 		background-color: transparent;
 		border: 1px solid #331a00;
 		right:45%;
@@ -77,14 +82,43 @@
 		color: rgb(255, 253, 208);
 		border-radius:4px;
 	}
-	#closebu{
+	#introbu, #redirectbu, #storybu, #charitybu{
+		position:absolute;
+		width: 12vw;
+		background-color:rgba(0, 0, 0, 0.5);
+		color: rgb(255, 253, 208);
+		border-style:none;
+		outline:none;
+		border-bottom: 1px solid #331a00;
+		border-right: 1px solid #331a00;
+		font-size: 20px;
+		margin:none;
+		top:0px;
+		min-height:5vw;
+	}
+	#introbu:hover, #redirectbu:hover, #storybu:hover, #charitybu:hover{
+		background-color:rgba(0, 0, 0, 0.3);
+	}
+	#redirectbu{
+		left:12vw;
+	}
+	#storybu{
+		left:24vw;
+	}
+	#charitybu{
+		left:36vw;
+	}
+	.closebu{
 		position:relative;
 		left: 25vw;
 		font-size: 24px;
 		margin-bottom: 4px;
 		border-color: rgb(255, 253, 208);
 	}
-	#closebu:hover{
-		color: #331a00;
-		border-color: #331a00;
+	.closebu:hover{
+		color: yellow;
+		border-color: yellow;
+	}
+	#navdiv{
+		width: 60vw;
 	}

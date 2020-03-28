@@ -38,35 +38,35 @@
 	<div id="advancedSet">
 		<span id="themespan">Select a theme</span></br>
 		<select id="themename" name="access" onchange="changeback();">
-				<option value="1">Wood Trunk and Paper (Default)</option>
-				<option value="2">Roadside Trees</option>
-				<option value="3">Coffee Beans and Jute</option>
-				<option value="4">Sunset at Desert</option>
-				<option value="5">Twin Leopards</option>
-				<option value="6">Sunrise in Forest</option>
-				<option value="7">Ice Cream</option>
-				<option value="8">Chocolate Cupcakes</option>
-				<option value="9">Birds and Pegions</option>
-				<option value="10">Sack of Gifts</option>
-				<option value="11">Wood and Paper</option>
-				<option value="12">Yellow Roses</option>
-				<option value="13">Woven Fabric</option>
-				<option value="14">Grey Gradient</option>
-				<option value="15">Plant in a pot</option>
+				<option value="woodtrunkandpaper">Wood Trunk and Paper</option>
+				<option value="roadsidetrees">Roadside Trees</option>
+				<option value="coffeebeansandjute">Coffee Beans and Jute</option>
+				<option value="sunsetatdesert">Sunset at Desert</option>
+				<option value="twinleopards">Twin Leopards</option>
+				<option value="sunriseinforest">Sunrise in Forest</option>
+				<option value="icecream">Ice Cream</option>
+				<option value="chocolatecupcakes">Chocolate Cupcakes</option>
+				<option value="birdsandpigions">Birds and Pegions</option>
+				<option value="sackofgifts">Sack of Gifts</option>
+				<option value="woodandpaper">Wood and Paper</option>
+				<option value="yellowroses">Yellow Roses</option>
+				<option value="wovenfabric">Woven Fabric</option>
+				<option value="greygradient">Grey Gradient</option>
+				<option value="plantinapot">Plant in a pot</option>
 		</select>
-		<img id="themeimg">
+		<img id="themeimg" src="images/themeimg/woodtrunkandpaper.jpeg">
 		</br>
 		<span id="fontspan">Select a font</span></br>
 		<select id="fontname" name="access" onchange="changefont();">
-			<option value="1">Delius</option>
-			<option value="2">Courgette</option>
-			<option value="3">Satisfy</option>
-			<option value="4">Merienda</option>
-			<option value="5">Vibur</option>
-			<option value="6">Sofia</option>
-			<option value="7">Marck Script</option>
+			<option value="Delius">Delius</option>
+			<option value="Courgette">Courgette</option>
+			<option value="Satisfy">Satisfy</option>
+			<option value="Merienda">Merienda</option>
+			<option value="Vibur">Vibur</option>
+			<option value="Sofia">Sofia</option>
+			<option value="Marck+Script">Marck Script</option>
 		</select>
-		<img id="fontimg"></br>
+		<img id="fontimg" src="images/fontimg/Delius.jpeg"></br>
 		<button id="cancelbu" onclick="hideAdvance();">Cancel</button>  <button id="savebu" formaction="customize.php">Save</button>
 	</div>
 <script type="text/javascript">
@@ -77,11 +77,19 @@
   		linkele.setSelectionRange(0, 99999);
   		document.execCommand("copy");
 	}
+	function changefont(){
+		var fontname = document.getElementById("fontname").value;
+		document.getElementById("fontimg").src = "images/fontimg/"+fontname+".jpeg";
+	}
 	function viewAdvance(){
 		document.getElementById("advancedSet").style.display = "block";
 	}
 	function hideAdvance(){
 		document.getElementById("advancedSet").style.display = "none";
+	}
+	function changeback(){
+		var themename = document.getElementById("themename").value;
+		document.getElementById("themeimg").src = "images/themeimg/"+themename+".jpeg";
 	}
 </script>
 </body>

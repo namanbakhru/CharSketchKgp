@@ -2,15 +2,18 @@ body{
 		background-image: url(../images/portrait.jpg);
 		background-repeat: no-repeat;
 		/*height:auto;*/
-		background-size: cover;
+		background-size: 100vw;
 		/*background-position: center auto;*/
 		color:#331a00;
-	}
+		min-height:100vh;
+}
 	#entrydiv{
 		width:75%;
 		margin:10% auto 0 auto;
 		font-size:150%;
+		margin-top:30vh;
 		/*transform: rotate(-3deg);*/
+		font-family: 'Courgette', cursive;
 	}
 	#shtoken{
 		visibility:hidden;
@@ -19,36 +22,60 @@ body{
 		background-color:transparent;
 		border-style: hidden;
 		border-bottom: 1px solid  #331a00;
+		font-family: 'Courgette', cursive;
+		font-size: 15px;
 	}
 	#access_type{
 		background-color:transparent;
 		border-color:#331a00;
+		font-family: 'Courgette', cursive;
 	}
-	#writeButton, #introbu, #redirectbu{
+	#writeButton, #introbu, #redirectbu, #storybu, #charitybu{
 		background-color:transparent;
 		border-color:#331a00;
 		/*color: rgb(255, 253, 208);;*/
 	}
+	#introbu, #redirectbu,#storybu, #charitybu{
+		font-size:12px;
+	}
 	#introbu, #redirectbu{
-		margin-top:15%;
+		position: absolute;
+		top:14vh;
+		height:5vh;
+	}
+	#storybu, #charitybu{
+		position: absolute;
+		top:20vh;
+		height:5vh;
+		font-size:12px;
 	}
 	#introbu{
-		margin-left:15%;
-		width:30%;
-		margin-right:4%;
+		left:19vw;
+		width:30vw;
 	}
 	#redirectbu{
-		margin-right:15%;
-		width:30%;
-		margin-left:4%;
+		left:51vw;
+		width:30vw;
 	}
-	#introdiv{
+	#storybu{
+		left:19vw;
+		width:30vw;
+	}
+	#charitybu{
+		left:51vw;
+		width:30vw;
+	}
+	#writebu{
+		font-family: 'Courgette', cursive;
+		border-radius:2px;
+	}
+	#introdiv, #charitydiv{
 		width:90%;
 		position:fixed;
 		/*margin:10% auto 0 auto;*/
-		top:10%;
+		top:5vh;
 		right:5%;
-		background-color: rgba(0, 0, 0, 0.7);
+		background-color: rgba(0, 0, 0, 0.9);
 		border: 5px double rgb(14,7,3);
 		border-radius: 10px;
 		font-size: 100%;
@@ -57,13 +84,21 @@ body{
 		z-index: 50;
 		display: none;
 	}
-	#closebu{
+	.closebu{
 		background-color: transparent;
 		border: 1px solid #331a00;
 		position:relative;
 		margin-left:auto;
 		margin-right:auto;
 		color: rgb(255, 253, 208);
+		position:relative;
+		left:35vw;
+		font-size: 18px;
+		margin-bottom: 4px;
+		border-color: rgb(255, 253, 208);
+		border-radius: 3px;
+		width:20vw;
+		box-sizing:border-box;
 	}
 	#hiddendiv{
 		left:0px;
